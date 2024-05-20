@@ -23,6 +23,7 @@ body {
     background-color: var(--white);
     max-width: 366px;
     border-radius: 25px;
+    box-shadow: 5px 10px black;
 }
 
 img {
@@ -38,9 +39,9 @@ img {
 
 h1 {
     background-color: var(--yellow);
-    display: inline-block;
+    display: iargin-bottom: .5rem;nline-block;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 1rem;
 }
 
@@ -52,10 +53,21 @@ p {
     color: var(--grey);
 }
 
-.avatar {
-    display: inline;
+#avatar-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
-em {
-    display: inline;
+#avatar-container > * {
+    margin: .5rem;
+}
+
+#avatar-container img {
+    width: 35px;
+}
+
+strong {
+    font-weight: var(--fw-bold);
+    font-size: .75rem;
 }
