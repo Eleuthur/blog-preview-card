@@ -6,7 +6,7 @@
     --ff: "Figtree", sans-serif;
     --fw-normal: 500;
     --fw-bold: 800;
-    --fs-normal: 15px;
+    --fs-normal: calc(.9vw + .9vh);
 }
 
 body {
@@ -23,30 +23,32 @@ body {
     background-color: var(--white);
     max-width: 366px;
     border-radius: 25px;
-    box-shadow: 5px 10px black;
+    box-shadow: 7px 7px black;
 }
 
 img {
-    margin: o auto;
     border-radius: 5%;
     display: block;
+    margin-top: 1rem;
 }
 
 #container > * {
-    margin: 1rem;
+    margin-left: 1rem;
     font-family: var(--ff);
 }
 
 h1 {
     background-color: var(--yellow);
-    display: iargin-bottom: .5rem;nline-block;
-    padding: 5px;
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 1em;
+    margin-top: 1.25rem;
 }
 
 small {
     display: block;
+    margin-top: .5rem;
 }
 
 p {
@@ -57,10 +59,7 @@ p {
     display: flex;
     justify-content: left;
     align-items: center;
-}
-
-#avatar-container > * {
-    margin: .5rem;
+    margin-bottom: 1rem;
 }
 
 #avatar-container img {
@@ -70,4 +69,5 @@ p {
 strong {
     font-weight: var(--fw-bold);
     font-size: .75rem;
+    margin-left: .75rem
 }
