@@ -42,32 +42,38 @@ h1 {
     display: inline-block;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 1rem;
     margin-top: 1.25rem;
+}
+
+h2 {
+    font-size: 1.25rem;
 }
 
 small {
     display: block;
-    margin-top: .5rem;
+    font-size: .75rem;
+    margin-top: .1rem;
 }
 
 p {
     color: var(--grey);
+    font-size: 1rem;
 }
 
 #avatar-container {
     display: flex;
-    justify-content: left;
     align-items: center;
     margin-bottom: 1rem;
 }
 
 #avatar-container img {
     width: 35px;
+    margin: 0;
 }
 
 strong {
     font-weight: var(--fw-bold);
-    font-size: .75rem;
+    font-size: .75em;
     margin-left: .75rem
 }
