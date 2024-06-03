@@ -22,8 +22,10 @@ body {
 #container {
     background-color: var(--white);
     max-width: 366px;
+    height: 500px;
     border-radius: 25px;
     box-shadow: 7px 7px black;
+    border: 1px solid black;
 }
 
 #container > * {
